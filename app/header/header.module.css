@@ -1,0 +1,32 @@
+.navStyles {
+
+    background-color: transparent;
+    border-bottom: 3px solid white;
+}
+
+.linkStyles:hover, .linkStyles:active, .linkStyles:focus {
+
+        background-color: black !important;
+        padding: 5px;
+        border-radius: 3px;
+        color: white !important;
+}
+
+.linkStyles {
+
+    color: black !important;
+
+}
+
+.navbarTitle {
+
+    font-weight: 900 !important;
+    color: white;
+
+}
+
+.logoStyles {
+
+    margin-bottom: 6px;
+
+}

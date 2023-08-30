@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Header from './header/page'
+import Footer from './footer/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,11 +18,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+          {/* FLOWBITE CDN */}
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+
+      </head>
       <body>
-        
-        
-        
-        {children}
+
+      <header><Header></Header></header>  
+      <main> {children}</main>
+      <footer><Footer></Footer></footer>
         
         </body>
     </html>

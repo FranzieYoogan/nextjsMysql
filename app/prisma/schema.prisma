@@ -17,4 +17,5 @@ model posts {
   content   String?
   created_at DateTime
   author String
+  image String
 }
