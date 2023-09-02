@@ -1,0 +1,40 @@
+/* INDICATORS CLASS */
+
+.imgCardCarousel {
+
+    height: auto;
+    max-height: 200px;
+
+
+}
+
+.mainSection {
+
+height: 130vh;
+
+}
+.mainDiv {
+
+width: 300px !important;
+
+}
+
+.divIndicators {
+
+display: flex !important;
+gap: 1em;
+justify-content: center;
+
+}
+
+.spanIndicators2 {
+
+display: inline !important;
+
+}
+
+.spanIndicators1 {
+
+display: inline !important;
+
+}

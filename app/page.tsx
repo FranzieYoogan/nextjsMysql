@@ -1,20 +1,24 @@
+
 import Image from 'next/image'
 import App from 'next/app'
 import CardCarousel from './cardCarousel/page'
-
-import { PrismaClient } from '@prisma/client'
-
-  export default async function Home() {
+import Card from './card/page'
 
 
 
+import styles from './page.module.css'
 
 
-  
+  export default function Home() {
+    
+   
+
   return (
     <>
-  
-    <CardCarousel></CardCarousel>
+
+   <CardCarousel></CardCarousel>
+ 
     </> 
+     
   )
 }

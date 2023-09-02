@@ -15,5 +15,14 @@ const conexao = mysql.createConnection({
 });
 console.log('Connected to MySQL database!');
 
+
+
+module.exports = {
+  reactStrictMode: false,
+}
+
+
+
+
 module.exports = conexao;
 module.exports = nextConfig

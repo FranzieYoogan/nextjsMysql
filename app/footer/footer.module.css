@@ -2,7 +2,8 @@
 
     background-color: transparent !important;
     border: none !important;
-
+    display: flex;
+    justify-content: center;
 }
 
 .spanFooter1 {

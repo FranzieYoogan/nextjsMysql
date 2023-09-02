@@ -11,7 +11,7 @@ body {
 
 html, body, div, section{
     height:100%;
-    width: 100%;
+
     display:block;
   }
   footer{
@@ -19,5 +19,7 @@ html, body, div, section{
     bottom:0;
     display:block;  
     width:100%;
+  
 
 }
+

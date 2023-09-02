@@ -1,5 +1,48 @@
-.img {
+.divCards {
 
-    height: 200px;
+
+    display: flex !important;
+    justify-content: center !important;
+     align-items: center;
+     margin-top: 2em;
+     gap: 2em;
     
+    
+    display: block;
+  
+}
+
+.divCards2 {
+
+   
+
+}
+
+.borderCard {
+    display: flex;
+    border: 2px solid black;
+    gap: 2em;
+    padding: 20px;
+    background-color: rgb(140, 111, 219);
+    border-radius: 20px;
+    height: auto;
+
+}
+
+
+.imgStyles {
+
+    height: auto;
+    max-height: 30vh;
+    min-height: 50px;
+    border-radius: 20px;
+    width: auto;
+    max-width: 300px;
+    border: black 2px solid;
+    transition: 1s;
+
+}
+
+.imgStyles:hover {
+    opacity: 0.5;
 }
